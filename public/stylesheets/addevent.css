@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.ename,
+.ed,
+.ee,
+.eee,
+.edes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: lato;
+  padding: 10px;
+}
+.ename input {
+  padding: 2px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+}
+.edes textarea {
+  padding: 2px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  width: 600px;
+  height: 100px;
+}
+.wc {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: lato;
+  padding: 10px;
+}
+.whocan {
+  display: flex;
+  padding: 10px;
+}
+.uni,
+.fac,
+.desig {
+  width: 300px;
+  justify-items: left;
+  align-items: left;
+}
+.uni p,
+.fac p,
+.desig p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: lato;
+  padding: 10px;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 100px;
+}

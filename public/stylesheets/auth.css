@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: green;
+}
+.authcontainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(209, 209, 209, 0.4);
+  position: absolute;
+}
+
+.authcontainer form {
+  width: 40%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  padding: 14px;
+}
